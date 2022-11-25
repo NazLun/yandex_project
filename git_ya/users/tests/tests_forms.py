@@ -14,12 +14,12 @@ class UsersFormTests(TestCase):
         """Создание нового прользователя."""
         users_count = User.objects.count()
         form_data = {
-            'first_name': 'Никита',
-            'last_name': 'Чалых',
-            'username': 'NikitaChalykh',
-            'email': 'Wizardus@list.ru',
-            'password1': 'passworD1234_!',
-            'password2': 'passworD1234_!'
+            'first_name': 'Naz',
+            'last_name': 'Lun',
+            'username': 'Naz',
+            'email': 'Naz@gmail.com',
+            'password1': 'qazxwsxc',
+            'password2': 'qazxwsxc',
         }
         response = self.guest_client.post(
             reverse('users:signup'),
