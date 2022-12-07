@@ -60,7 +60,7 @@ DEBUG_TOOLBAR_CONFIG = {
 }
 
 
-ROOT_URLCONF = 'git_ya.urls'
+ROOT_URLCONF = 'yandex_git.urls'
 
 
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
@@ -80,7 +80,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'git_ya.wsgi.application'
+WSGI_APPLICATION = 'yandex_git.wsgi.application'
 
 
 # Database
