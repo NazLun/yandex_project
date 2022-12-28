@@ -1,4 +1,4 @@
-Стек технологий
+Стек технологий:
 
 Python 3.8
 Django 2.2
@@ -29,3 +29,4 @@ python3 manage.py migrate
 
 Запустить проект (в режиме сервера Django):
 python3 manage.py runserver
+
